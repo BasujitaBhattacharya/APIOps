@@ -40,8 +40,8 @@ az login
 3. Create 2 service principles with different names for dev and prod
    
 ```bash
-az ad sp create-for-rbac -n "**apiopslabdev**" --role Contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{dev-resource-group} --sdk-auth
-az ad sp create-for-rbac -n "**apiopslabprod**" --role Contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{prod-resource-group} --sdk-auth
+az ad sp create-for-rbac -n "apiopslabdev" --role Contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{dev-resource-group} --sdk-auth
+az ad sp create-for-rbac -n "apiopslabprod" --role Contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{prod-resource-group} --sdk-auth
 ```
 
 
