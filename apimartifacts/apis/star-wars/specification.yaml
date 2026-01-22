@@ -9,6 +9,7 @@ paths:
   /people/:
     get:
       summary: Get People
+      description: Get People
       operationId: get-people
       responses:
         '200':
@@ -16,6 +17,7 @@ paths:
   '/people/{id}/':
     get:
       summary: Get People By Id
+      description: Get People By Id
       operationId: get-people-by-id
       parameters:
         - name: id

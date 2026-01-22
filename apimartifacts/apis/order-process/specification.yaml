@@ -9,6 +9,7 @@ paths:
   /new:
     post:
       summary: New Order
+      description: New Order
       operationId: new-order
       responses:
         '200':
