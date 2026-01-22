@@ -29,6 +29,15 @@ git remote add origin https://github.com/<your-username>/<repo>.git
 git push -u origin main
 ```
 
+## Login to Azure
+
+Run the commands below from inside the folder:
+
+```bash
+az login
+```
+Use your azure login credentials and select subscription.
+
 ## Notes
 - If you see `error: remote origin already exists`, remove it and add again:
   ```bash
