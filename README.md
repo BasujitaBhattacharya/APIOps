@@ -31,12 +31,19 @@ git push -u origin main
 
 ## Login to Azure
 
-Run the commands below from inside the folder:
+1. Run the commands below from inside the folder:
 
 ```bash
 az login
 ```
-Use your azure login credentials and select subscription.
+2. Use your azure login credentials and select subscription.
+3. Create 2 service principles with different names for dev and prod
+   
+```bash
+az ad sp create-for-rbac -n "**apiopslabdev**" --role Contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{dev-resource-group} --sdk-auth
+az ad sp create-for-rbac -n "**apiopslabprod**" --role Contributor --scopes /subscriptions/{subscription-id}/resourceGroups/{prod-resource-group} --sdk-auth
+```
+
 
 ## Notes
 - If you see `error: remote origin already exists`, remove it and add again:
