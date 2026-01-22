@@ -1,8 +1,8 @@
 # APIOps Repo Setup (Initialize & Push to GitHub)
 
 ## Prerequisites
-- **Git** installed from here https://git-scm.com/install/windows
-- **Azure CLI** installed from here https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=winget#winget-windows-package-manager
+- **Git** installed from [here](https://git-scm.com/install/windows)
+- **Azure CLI** installed from [here](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=winget#winget-windows-package-manager)
 - A **GitHub repository URL** ready (example: `https://github.com/<your-username>/<repo>.git`)
 
 ## Steps
