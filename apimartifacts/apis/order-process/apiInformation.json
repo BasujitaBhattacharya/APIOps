@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "path": "processOrder",
+    "apiRevision": "1",
+    "authenticationSettings": {},
+    "description": "",
+    "isCurrent": true,
+    "displayName": "Order-Process",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://la-int-svc-demo-hkcfgucqgqgvdedm.canadacentral-01.azurewebsites.net:443/api",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}

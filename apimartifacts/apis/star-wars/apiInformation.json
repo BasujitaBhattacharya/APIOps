@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "path": "sw",
+    "apiRevision": "1",
+    "apiVersionSetId": "/subscriptions/b7defe7e-effb-4f7f-bfc0-d73acb268545/resourceGroups/rg-apim-demo/providers/Microsoft.ApiManagement/service/apim-demo-bb/apiVersionSets/68f94ab89326014fef5799cb",
+    "authenticationSettings": {},
+    "description": "",
+    "isCurrent": true,
+    "displayName": "Star Wars",
+    "protocols": [
+      "https"
+    ],
+    "serviceUrl": "https://swapi.dev/api",
+    "subscriptionKeyParameterNames": {
+      "header": "Ocp-Apim-Subscription-Key",
+      "query": "subscription-key"
+    },
+    "subscriptionRequired": true
+  }
+}
