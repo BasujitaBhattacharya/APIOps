@@ -1,9 +1,0 @@
-{
-  "properties": {
-    "displayName": "Gold Tier",
-    "description": "Subscribers will be able to run 1000 calls/min and 100000 calls/week",
-    "approvalRequired": false,
-    "state": "published",
-    "subscriptionRequired": true
-  }
-}
