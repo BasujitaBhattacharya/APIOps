@@ -6,7 +6,7 @@
 
 ## Steps
 
-1. **Download** the GitHub APIOps contents.
+1. **Download** the GitHub APIOps release contents from here https://github.com/Azure/apiops/releases.
 2. **Extract** the ZIP and **delete** the ZIP file.
 3. Open a terminal and navigate to the folder that contains the **`.github`** folder.
 
